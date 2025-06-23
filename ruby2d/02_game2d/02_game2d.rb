@@ -23,4 +23,11 @@ end
 snake = Snake.new
 snake.draw
 
+song = Music.new('song.mp3')
+
+# Play the music
+song.play
+song.volume = 30
+# song.loop = true
+
 show
